@@ -1,0 +1,48 @@
+{
+  "name": "es6-module-typescript-babel-gulp-sandbox",
+  "version": "1.0.0",
+  "description": "sandbox for babel (gulp) cli for generation es6 modules from typescript",
+  "main": "src/com/xyz/index.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp",
+    "serve": "./node_modules/.bin/gulp serve",
+    "test": "jest"
+  },
+  "keywords": [
+    "babel",
+    "typescript",
+    "ES6 module",
+    "cli"
+  ],
+  "author": "Marc Kronberg",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/jest": "^23.3.13",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.4"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$"
+  }
+}
