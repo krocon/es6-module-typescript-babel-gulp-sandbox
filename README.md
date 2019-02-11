@@ -1,7 +1,7 @@
 # es6-module-typescript-babel-gulp-sandbox
 sandbox for babel (gulp) cli for generation es6 modules from typescript
 
-##Prerequisite
+## Prerequisite
 
 1) Clone the sandbox:
 `git clone https://github.com/krocon/es6-module-typescript-babel-gulp-sandbox.git`
@@ -9,6 +9,6 @@ sandbox for babel (gulp) cli for generation es6 modules from typescript
 2) Load the node_modules:
 `npm install`
 
-##Develop
+## Develop
 
 Type `npm run serve`
