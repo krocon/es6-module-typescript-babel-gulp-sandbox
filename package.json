@@ -5,6 +5,7 @@
   "main": "src/com/xyz/index.ts",
   "scripts": {
     "build": "./node_modules/.bin/gulp",
+    "start": "./node_modules/.bin/gulp",
     "serve": "./node_modules/.bin/gulp serve",
     "test": "jest"
   },
