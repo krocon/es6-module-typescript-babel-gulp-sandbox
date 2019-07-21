@@ -1,40 +1,39 @@
 {
-  "name": "es6-module-typescript-babel-gulp-sandbox",
-  "version": "1.0.0",
-  "description": "sandbox for babel (gulp) cli for generation es6 modules from typescript",
-  "main": "src/com/xyz/index.ts",
+  "name": "es6-module-typescript-babel-gulp-template",
+  "version": "1.0.3",
+  "description": "From Typescript to ES5 Module Generator",
+  "main": "src/com/deutschebahn/next/stationmap/index.ts",
   "scripts": {
     "build": "./node_modules/.bin/gulp",
-    "start": "./node_modules/.bin/gulp",
-    "serve": "./node_modules/.bin/gulp serve",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "npm audi fix --force"
   },
   "keywords": [
-    "babel",
-    "typescript",
-    "ES6 module",
-    "cli"
+    "StationMap",
+    "DS100",
+    "Deutsche Bahn",
+    "DB Netze"
   ],
   "author": "Marc Kronberg",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.3.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.3.1",
-    "@babel/preset-env": "^7.3.1",
-    "@babel/preset-typescript": "^7.1.0",
-    "@types/jest": "^23.3.13",
-    "babel-plugin-add-module-exports": "^1.0.0",
-    "browser-sync": "^2.26.3",
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-babel": "^8.0.0-beta.2",
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.15",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "browser-sync": "^2.26.7",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-sourcemaps": "^2.6.4",
-    "jest": "^23.6.0",
-    "ts-jest": "^23.10.5",
-    "typescript": "^3.2.4"
+    "gulp-sourcemaps": "^2.6.5",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
   },
   "jest": {
     "transform": {
