@@ -9,10 +9,10 @@
     "postinstall": "npm audi fix --force"
   },
   "keywords": [
-    "StationMap",
-    "DS100",
-    "Deutsche Bahn",
-    "DB Netze"
+    "Sandbox",
+    "es6",
+    "babel",
+    "seed"
   ],
   "author": "Marc Kronberg",
   "license": "MIT",
