@@ -1,6 +1,6 @@
 {
   "name": "es6-module-typescript-babel-gulp-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "From Typescript to ES5 Module Generator",
   "main": "src/com/deutschebahn/next/stationmap/index.ts",
   "scripts": {
